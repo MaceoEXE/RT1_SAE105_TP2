@@ -16,8 +16,8 @@ def CalcVerte(month):
     TotalV = 0
     if month == 0: 
         for i in range(0,12) :
-         for j in liste_verte1[i]:
-                TotalF += int(j)
+         for j in liste_verte[i]:
+            TotalV += int(j)
     else :
         for i in liste_verte[month-1]:
             TotalV += int(i)
